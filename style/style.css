@@ -65,6 +65,21 @@ button {
     color: var(--color1);
 }
 
+.contentNumWrapp {
+    transform: rotate(45deg);
+    background-color: var(--color6);
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto -15px;
+}
+
+.contentNumWrapp .contentNum{
+    transform: rotate(-45deg);
+}
+
 
 .iconSep {
     text-align: center;
@@ -418,6 +433,22 @@ button {
     padding: 100px 0 150px;
 }
 
+/* .howItWork__num {
+    transform: rotate(45deg);
+    background-color: var(--color6);
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto -20px;
+}
+
+.howItWork__num .contentNum {
+    transform: rotate(-45deg);
+} */
+
+
 .howItWork__row {
     display: flex;
     justify-content: space-between;
@@ -453,3 +484,19 @@ button {
 .howItWork__icon {
     margin: 0 25px;
 }
+
+
+
+.Testimonials {
+    background-image: url(../img/bgr8.jpg);
+    padding: 100px 0;
+}
+
+.Testimonials__content {
+    margin-top: 60px;
+}
+
+.Testimonials__content .col-5:nth-child(1) {
+    text-align: right;
+}
+
