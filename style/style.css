@@ -1,9 +1,247 @@
+@font-face {
+    font-family: "BebasNeueBold";
+    src: url(../fonts/BebasNeueBold.ttf);
+}
+
+@font-face {
+    font-family: "BebasNeueRegular";
+    src: url(../fonts/BebasNeueRegular.ttf);
+}
+
 * {
     box-sizing: border-box;
+}
+
+:root {
+    --color1: #019edb;
+    --color2: #1b1b1b;
+    --color3: #fff;
+    --color4: #f2f2f2;
+    --shadow: 2px 2px 10px rgb(7, 7, 7);
+    --transition: all 0.3s;
 }
 
 body {
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
+    background-color: var(--color4);
+}
+
+h1 {
+    font-size: 36px;
+    color: var(--color3);
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    color: var(--color3);
+    text-align: center;
+}
+
+p {
+    color: var(--color3);
+    font-size: 14px;
+}
+
+button {
+    border: none;
+    background-color: var(--color1);
+    color: var(--color3);
+    border-radius: 15px;
+    padding: 5px 20px;
+    transition: var(--transition);
+}
+
+.contentNum {
+    text-align: center;
+    font-weight: 900;
+    font-size: 60px;
+}
+
+
+.nav-link {
+    color: var(--color2);
+    transition: var(--transition);
+}
+
+.nav-link:hover {
+    background-color: var(--color1);
+    color: var(--color3);
+}
+
+.logo {
+    max-width: 170px;
+    position: relative;
+}
+
+.logo svg {
+    margin-top: 15px;
+}
+
+.logo__bgr1 {
+    background-color: var(--color1);
+    height: 280px;
+    width: 280px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: -150px;
+    left: -50px;
+    z-index: -1;
+}
+
+.logo__bgr2 {
+    background-color: var(--color2);
+    height: 150px;
+    width: 60px;
+    transform: rotate(45deg);
+    position: absolute;
+    z-index: -2;
+    top: -60px;
+    left: 250px
+}
+
+.firstScreen {
+    position: relative;
+    /* background-color: var(--color4); */
+    /* background-image: url(../img/bgr2.jpg); */
+}
+
+.firstScreen__bgr1 {
+    background-color: var(--color3);
+    position: absolute;
+    height: 500px;
+    width: 700px;
+    z-index: -3;
+    transform: rotate(45deg);
+    left: 0;
+    top: -200px
+}
+
+.firstScreen__bgr2 {
+    overflow: hidden;
+    position: absolute;
+    height: 650px;
+    width: 650px;
+    z-index: 1;
+    transform: rotate(45deg);
+    right: 140px;
+    /* right: 20%; */
+    top: 110px;
+}
+
+.firstScreen__bgr2 img {
+    transform: rotate(-45deg);
+    position: absolute;
+    top: -30px;
+    left: -430px;
+}
+
+.firstScreen__bgr3 {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background-color: var(--color1);
+    transform: rotate(45deg);
+    right: 800px;
+    top: 220px;
+}
+
+.firstScreen__bgr4 {
+    position: absolute;
+    background-color: var(--color2);
+    height: 400px;
+    width: 400px;
+    transform: rotate(45deg);
+    top: 300px;
+    left: 190px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--shadow);
+}
+
+.firstScreen__best {
+    transform: rotate(-45deg);
+    padding: 50px;
+}
+
+.firstScreen__best h1 {
+    font-weight: 600;
+    color: var(--color1);
+    text-align: left;
+}
+
+.firstScreen__bgr5 {
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    z-index: 5;
+    top: 650px;
+    left: 420px;
+    background-color: var(--color1);
+    transform: rotate(45deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content1 {
+    transform: rotate(-45deg);
+    padding: 30px;
+    text-align: center;
+}
+
+.content1 button {
+    background-color: var(--color4);
+    color: var(--color1);
+}
+
+.firstScreen__bgr6 {
+    transform: rotate(45deg);
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 3;
+    top: 650px;
+    right: 250px;
+}
+
+.firstScreen__bgr6 img {
+    position: absolute;
+    transform: rotate(-45deg);
+    top: -40px;
+    left: -370px;
+}
+
+
+.WhyChooseUs {
+    margin-top: 400px;
+    background-image: url(../img/bgr2.jpg);
+}
+
+.WhyChooseUs .container {
+    padding-top: 500px;
+}
+
+.boxBgr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.WhyChooseUs__bgr1 {
+    width: 0;
+	height: 0;
+	border-top: 300px solid var(--color4); 
+	border-right: 300px solid transparent;	
+}
+
+.WhyChooseUs__bgr2 {
+	width: 0;
+	height: 0;
+	border-top: 300px solid var(--color4); 
+	border-left: 300px solid transparent;
 }
