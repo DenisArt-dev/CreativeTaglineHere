@@ -500,3 +500,24 @@ button {
     text-align: right;
 }
 
+
+.socialNetworks {
+    background-color: var(--color1);
+    padding: 45px 0;
+}
+
+.socialNetworks__iconsBox {
+    display: flex;
+    justify-content: space-around;
+}
+
+.socialNetworks__icon {
+    border: solid 3px var(--color3);
+    border-radius: 50%;
+}
+
+.socialNetworks__icon svg {
+    fill: var(--color3);
+    margin: 15px;
+}
+
