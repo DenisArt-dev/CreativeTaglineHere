@@ -537,12 +537,24 @@ button {
 .socialNetworks__icon {
     border: solid 3px var(--color3);
     border-radius: 50%;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.socialNetworks__icon:hover {
+    background-color: var(--color3);
+}
+
+.socialNetworks__icon:hover svg {
+    fill: var(--color1);
 }
 
 .socialNetworks__icon svg {
     fill: var(--color3);
     margin: 15px;
+    transition: var(--transition);
 }
+
 
 
 .getInTouch {
