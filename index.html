@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Creative Tagline here</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
     <link rel="shortcut icon" href="img/icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -94,7 +95,7 @@
 
                     <ul class="nav justify-content-end">
                         <li class="nav-item">
-                            <a class="nav-link active disabled" aria-current="page" href="#">HOME</a>
+                            <a class="nav-link active" aria-current="page" href="#">HOME</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#WhyChooseUs">ABOUT US</a>
@@ -113,6 +114,17 @@
                         </li>
                     </ul>
 
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+
                 </div>
 
             </div>
@@ -122,18 +134,33 @@
     </header>
 
     <section class="firstScreen">
+
+        <div class="firstScreen__bgrMB">
+
+            <div class="firstScreen__bgr1"></div>
+
+            <div class="firstScreen__bgr2">
+                <img src="img/bgr1.4.jpg" alt="">
+            </div>
+
+        </div>
+
         <div class="container">
+            
+            <div class="firstScreen__bgr">
+
+                <div class="firstScreen__bgr1"></div>
+
+                <div class="firstScreen__bgr2">
+                    <img src="img/bgr1.4.jpg" alt="">
+                </div>
+
+                <div class="firstScreen__bgr3"></div>
+
+            </div>
 
             <div class="row">
                 <div class="col-12">
-
-                    <div class="firstScreen__bgr1"></div>
-
-                    <div class="firstScreen__bgr2">
-                        <img src="img/bgr1.jpg" alt="">
-                    </div>
-
-                    <div class="firstScreen__bgr3"></div>
 
                     <div class="firstScreen__bgr4">
 
@@ -180,11 +207,13 @@
 
         <div class="container">
 
-            <div class="row">
-                <div class="WhyChooseUs__title">
-                    <h1>WHY CHOOSE US</h1>
-                    <h3>LOREM IPSUM DOLOR</h3>
-                </div>
+            <div class="WhyChooseUs__title">
+                <h1>WHY CHOOSE US</h1>
+                <h3>LOREM IPSUM DOLOR</h3>
+            </div>
+
+            <div class="row WhyChooseUs__cards">
+
                 <div class="WhyChooseUs__card col-5">
                     <h3>ABOUT US</h3>
                     <p>Lorem ipsum dolor mero moleamet, soluta euism od isea, hiea unereusams ullu tpamco detore aer
@@ -192,6 +221,7 @@
                         euism od isea, hiea unereusams ullu tpamco detore aer rper quo,utam signiferuuue uo. Brute inani
                         in prom in.</p>
                 </div>
+
                 <div class="WhyChooseUs__icon col-2">
 
                     <div class="iconSep">
@@ -201,6 +231,7 @@
                     </div>
 
                 </div>
+
                 <div class="WhyChooseUs__card col-5">
                     <h3>FEATURE</h3>
                     <p>Lorem ipsum dolor mero moleamet, soluta euism od isea, hiea unereusams ullu tpamco detore aer
@@ -208,6 +239,7 @@
                         euism od isea, hiea unereusams ullu tpamco detore aer rper quo,utam signiferuuue uo. Brute inani
                         in prom in.</p>
                 </div>
+
             </div>
             <div class="row">
                 <div class="WhyChooseUs__button col-12">
@@ -222,16 +254,18 @@
     <section class="portfolio">
 
         <div class="portfolio__bgr1">
-            <img src="img/bgr4.jpg" alt="">
-        </div>
-
-        <div class="portfolio__bgr5">
-            <h1 class="contentNum">2</h1>
+            <img src="img/bgr4.2.jpg" alt="">
         </div>
 
         <div class="portfolio__container container">
 
+
+            <div class="portfolio__bgr5">
+                <h1 class="contentNum">2</h1>
+            </div>
+
             <div class="row portfolio__imgBox">
+
                 <div class="portfolio__bgr2 col-4">
                     <img src="img/bgr5.jpg" alt="">
                 </div>
@@ -461,9 +495,9 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row getInTouchRow">
 
-                <div class="col-4">
+                <div class="col-4 getInTouchCol">
                     
                     <div class="getInTouchCard">
 
@@ -480,7 +514,7 @@
 
                 </div>
 
-                <div class="col-4">
+                <div class="col-4 getInTouchCol">
                     
                     <div class="getInTouchCard">
 
@@ -497,7 +531,7 @@
 
                 </div>
 
-                <div class="col-4">
+                <div class="col-4 getInTouchCol">
                     
                     <div class="getInTouchCard">
 
@@ -538,10 +572,10 @@
 
     </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
     <script src="js/main.js"></script>
+    
 </body>
 
 </html>

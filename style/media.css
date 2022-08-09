@@ -1,0 +1,590 @@
+@media (min-width: 1900px) {
+
+    .WhyChooseUs__bgr1, .WhyChooseUs__bgr2 {
+        display: none;	
+    }
+
+    .WhyChooseUs {
+        padding-top: 350px;
+    }
+
+    .portfolio__container {
+        top: 2222px;
+    }
+
+}
+
+@media (min-width: 1370px) {
+    .portfolio__bgr1 {
+        width: 1270px;
+        height: 1270px;
+    }
+
+    .WhyChooseUs__bgr1 {
+        border-top: 500px solid var(--color4); 
+        border-right: 500px solid transparent;	
+    }
+
+    .WhyChooseUs__bgr2 {
+        border-top: 500px solid var(--color4); 
+        border-left: 500px solid transparent;
+    }
+}
+
+@media (max-width: 1490px) {
+
+    .container {
+        max-width: 1200px;
+    }
+
+}
+
+
+@media (max-width: 1370px) {
+
+    .portfolio__imgBox {
+        justify-content: center;
+    }
+
+    .portfolio__text {
+        margin: 180px auto 100px;
+    }
+
+}
+
+@media (max-width: 1300px) {
+
+    .firstScreen__bgr2 {
+        right: -300px;
+    }
+
+    .firstScreen__bgr3 {
+        right: -293px;
+        top: -521px;
+    }
+
+    .firstScreen__bgr6 {
+        top: -930px;
+        left: 540px;
+    }
+    
+    .portfolio__bgr5 {
+        top: -120px;
+    }
+
+    .portfolio__imgBox {
+        margin-top: -150px;
+    }
+
+    .portfolio__text {
+        margin: 100px auto 100px;
+    }
+
+}
+
+@media (max-width: 1235px) {
+
+    .firstScreen__bgr4 {
+        left: 100px;
+    }
+
+    .firstScreen__bgr3 {
+        right: -319px;
+    }
+
+    .firstScreen__bgr5 { 
+        left: 312px;
+    }
+
+    .portfolio__bgr2 {
+        position: relative;
+        left: 77px;
+        top: 66px;
+    }
+
+    .portfolio__bgr3 {
+        position: relative;
+        left: -77px;
+        top: 66px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .portfolio__imgBox {
+        margin-top: -300px;
+    }
+
+    .portfolio__bgr5 {
+        top: -235px;
+    }
+
+    .portfolio__bgr2 {
+        left: 150px;
+        top: 180px;
+    }
+
+    .portfolio__bgr3 {
+        left: -150px;
+        top: 180px;
+    }
+
+    .portfolio__bgr1 img {
+        top: 340px;
+        left: 310px;
+    }
+}
+
+@media (max-width: 1150px) {
+
+    .WhyChooseUs {
+        z-index: -3;
+    }
+
+    .portfolio__bgr5 {
+
+        margin: auto;
+        top: -300px;
+        left: 0;
+    }
+
+    .portfolio__bgr2 {
+        left: 220px;
+        top: 280px;
+
+        height: 290px;
+        width: 290px;
+    }
+
+    .portfolio__bgr3 {
+        left: -220px;
+        top: 280px;
+
+        height: 290px;
+        width: 290px;
+    }
+
+    .portfolio__text {
+        margin: 0 auto 100px;
+    }
+
+    .firstScreen__bgr2 {
+        margin: auto;
+        top: 110px;
+        right: 0;
+    }
+
+    .firstScreen__bgr3, .firstScreen__bgr6 {
+        display: none;
+    }
+
+    .WhyChooseUs {
+        margin-top: -1100px;
+        padding-top: 600px;
+    }
+
+    .WhyChooseUs__bgr1, .WhyChooseUs__bgr2 {
+        display: none;	
+    }
+
+    .firstScreen__bgr4 {
+        margin: auto;
+        left: 0;
+        top: -130px;
+    }
+
+    .firstScreen__bgr5 {
+        margin: auto;
+        left: 0;
+        top: -135px;
+    }
+
+    .portfolio__container {
+        position: relative;
+        top: -400px;
+    }
+
+    .portfolio__bgr4 {
+        height: 370px;
+        width: 370px;
+    }
+
+    .nav {
+        display: none;
+    }
+    
+    .dropdown {
+        display: block;
+    }
+
+}
+
+@media (max-width: 990px) {
+
+    .firstScreen__bgr2 {
+        height: 500px;
+        width: 500px;
+    }
+
+    .firstScreen__bgr4 {
+        top: 0;
+    }
+
+    .firstScreen__bgr5 {
+        top: 0;
+    }
+
+    .WhyChooseUs {
+        padding-top: 700px;
+    }
+
+    .portfolio__bgr2, .portfolio__bgr3 {
+        display: none;
+    }
+
+    .portfolio__text {
+        margin: -270px auto 100px;
+    }
+
+    .Testimonials__content .col-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    .howItWork__row {
+        display: block;
+    }
+
+    .howItWork__icon {
+        transform: rotate(90deg);
+    }
+
+    .howItWorkCard {
+        width: 500px;
+        margin: auto;
+    }
+    
+
+    .portfolio__bgr1 {
+        transform: rotate(0deg);
+        top: 0;
+    }
+
+    .portfolio__bgr1 img {
+        transform: rotate(0deg);
+        top: 0;
+        left: 0;
+    }
+
+    .portfolio__imgBox {
+        margin-top: 15px;
+    }
+
+    .portfolio__bgr5 {
+        top: 35px;
+    }
+
+}
+
+@media (max-width: 830px) {
+
+    .portfolio__container {
+        top: -260px;
+    }
+
+    .portfolio__text {
+        margin: -150px auto 100px;
+    }
+
+}
+
+@media (max-width: 780px) {
+
+    .firstScreen__bgr1 {
+        display: none;
+    }
+
+}
+
+@media (max-width: 730px) {
+
+    .firstScreen__bgr2 {
+        transform: rotate(0deg);
+        width: 100%;
+    }
+
+    .firstScreen__bgr2 img {
+        transform: rotate(0deg);
+        top: -110px;
+        left: -165px;
+    }
+
+    .firstScreen {
+        margin-top: -80px;
+    }
+
+    header {
+        position: relative;
+        z-index: 10;
+    }
+
+    .firstScreen__bgr {
+        display: none;
+    }
+
+    .firstScreen__bgrMB {
+        display: block;
+    }
+
+}
+
+
+@media (max-width: 690px) {
+
+    .firstScreen__bgr4 {
+        margin-bottom: 30px;
+    }
+
+    .firstScreen__bgr4, .firstScreen__bgr5 {
+        transform: rotate(0deg);
+        width: 80%;
+        height: auto;
+    }
+
+    .firstScreen__bgr4 .firstScreen__best, .firstScreen__bgr5 .content1 {
+        transform: rotate(0deg);
+    }
+
+    .WhyChooseUs__cards {
+        display: block;
+    }
+
+    .WhyChooseUs__card {
+        margin: auto;
+        width: 80%;
+    }
+
+    .WhyChooseUs__icon {
+        margin: auto;
+        transform: rotate(90deg);
+    }
+
+    .portfolio__bgr4 {
+        transform: rotate(0deg);
+        width: 80%;
+        height: auto;
+        padding: 80px 40px 40px;
+    }
+
+    .portfolio__content {
+        transform: rotate(0deg);
+    }
+
+    .portfolio__bgr5 {
+        top: 100px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .portfolio__text {
+        margin: -200px auto 50px;
+    }
+
+}
+
+@media (max-width: 640px) {
+    .socialNetworks__icon svg {
+        margin: 10px;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (max-width: 640px) {
+
+    .Testimonials__content {
+        display: block;
+    }
+
+    .Testimonials__content div {
+        margin: auto;
+        text-align: center;
+    }
+
+    .Testimonials__content .col-5 {
+        width: 90%;
+    }
+
+    .Testimonials__content .col-5:nth-child(1) {
+        text-align: center;
+    }
+
+    .Testimonials__content .iconSep {
+        transform: rotate(90deg);
+    }
+
+
+    .portfolio__bgr4, .WhyChooseUs__card, .firstScreen__bgr4, .firstScreen__bgr5  {
+        width: 90%;
+    }
+
+    .getInTouchCol {
+        margin-left: 50px;
+    }
+
+    .getInTouchCard {
+        width: 250px;
+        justify-content: start;
+    }
+
+    .getInTouchCard__icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .getInTouchRow {
+        display: block;
+    }
+
+}
+
+@media (max-width: 540px)  {
+
+    .howItWorkCard {
+        width: 90%;
+    }
+
+    /* .portfolio__bgr1 {
+        transform: rotate(0deg);
+        top: 0;
+    }
+
+    .portfolio__bgr1 img {
+        transform: rotate(0deg);
+        top: 0;
+        left: 0;
+    }
+
+    .portfolio__imgBox {
+        margin-top: -120px;
+    }
+
+    .portfolio__bgr5 {
+        top: -35px;
+    } */
+}
+
+@media (max-width: 460px) {
+
+    .socialNetworks__icon {
+        border: none;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    .logo__bgr1 {
+        width: 250px;
+        height: 255px;
+    }
+
+    .logo__bgr2 {
+        left: 190px;
+    }
+
+    .howItWork {
+        padding: 50px 0;
+    }
+
+    .Testimonials {
+        padding: 50px 0;
+    }
+
+}
+
+@media (max-width: 390px) {
+
+    .logo__bgr2 {
+        display: none;
+    }
+
+    .logo__bgr1 {
+        width: 210px;
+        height: 223px;
+    }
+
+    .firstScreen {
+        margin-top: -112px;
+    }
+
+    .portfolio__imgBox {
+        margin-top: 0;
+    }
+
+    .portfolio__bgr5 {
+        top: 90px;
+    }
+
+}
+
+@media (max-width: 390px) {
+    .socialNetworks__icon svg {
+        margin: 0;
+    }
+
+    .firstScreen__bgr2 img {
+        left: -260px;
+    }
+}
+
+@media (max-width: 340px) {
+
+    .getInTouchCol {
+        margin-left: 10px;
+    }
+
+    .howItWorkCard {
+        display: block;
+        text-align: center;
+    }
+
+    .howItWorkCard__icon {
+        height: 70px;
+        width: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 15px auto;
+    }
+
+    .howItWorkCard__text h3 {
+        text-align: center;
+    }
+
+    .firstScreen__best {
+        padding: 50px 20px;
+    }
+
+}
+
+@media (max-width: 340px)  { 
+
+    .content1 {
+        padding: 30px 15px;
+    }
+
+    .getInTouchCard {
+        width: 200px;
+    }
+
+}

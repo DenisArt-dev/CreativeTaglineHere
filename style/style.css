@@ -62,8 +62,19 @@ button {
     transition: var(--transition);
 }
 
+.myContainer {
+    margin: 0 auto;
+    max-width: 1450px;
+    padding: 0 10px;
+}
+
 .nav {
     font-size: 14px;
+}
+
+.dropdown {
+    text-align: right;
+    display: none;
 }
 
 .contentNum {
@@ -157,53 +168,58 @@ button {
     position: relative;
 }
 
+.firstScreen__bgrMB {
+    display: none;
+}
+
 .firstScreen__bgr1 {
     background-color: var(--color3);
-    position: absolute;
+    position: relative;
     height: 500px;
-    width: 700px;
+    width: 1000px;
     z-index: -3;
     transform: rotate(45deg);
-    left: 0;
-    top: -200px
+    left: -290px;
+    top: -160px;
+    margin-bottom: -500px;
 }
 
 .firstScreen__bgr2 {
     overflow: hidden;
-    position: absolute;
+    position: relative;
     height: 650px;
     width: 650px;
     z-index: 1;
     transform: rotate(45deg);
-    right: 140px;
+    right: -440px;
     top: 110px;
 }
 
 .firstScreen__bgr2 img {
     transform: rotate(-45deg);
     position: absolute;
-    top: -30px;
-    left: -430px;
+    top: -140px;
+    left: -140px;
 }
 
 .firstScreen__bgr3 {
-    position: absolute;
+    position: relative;
     height: 70px;
     width: 70px;
     background-color: var(--color1);
     transform: rotate(45deg);
-    right: 800px;
-    top: 220px;
+    right: -370px;
+    top: -430px;
 }
 
 .firstScreen__bgr4 {
-    position: absolute;
+    position: relative;
     background-color: var(--color2);
     height: 400px;
     width: 400px;
     transform: rotate(45deg);
-    top: 300px;
-    left: 190px;
+    top: -450px;
+    left: 50px;
     z-index: 1;
     display: flex;
     align-items: center;
@@ -223,12 +239,12 @@ button {
 }
 
 .firstScreen__bgr5 {
-    position: absolute;
+    position: relative;
     height: 350px;
     width: 350px;
     z-index: 5;
-    top: 650px;
-    left: 420px;
+    top: -482px;
+    left: 262px;
     background-color: var(--color1);
     transform: rotate(45deg);
     display: flex;
@@ -256,10 +272,10 @@ button {
     width: 400px;
     height: 400px;
     overflow: hidden;
-    position: absolute;
+    position: relative;
     z-index: 3;
-    top: 650px;
-    right: 250px;
+    top: -800px;
+    left: 600px;
 }
 
 .firstScreen__bgr6 img {
@@ -271,10 +287,12 @@ button {
 
 
 .WhyChooseUs {
-    margin-top: 400px;
+    margin-top: -1500px;
     background-image: url(../img/bgr2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    z-index: -5;
 }
 
 .WhyChooseUs p {
@@ -329,6 +347,7 @@ button {
     background-image: url(../img/bgr2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     overflow: hidden;
 }
 
@@ -342,17 +361,23 @@ button {
 .portfolio__bgr1 {
     overflow: hidden;
     position: relative;
-    top: -400px;
+    top: -640px;
     transform: rotate(45deg);
     text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .portfolio__bgr1 img {
-    max-width: 100%;
+    max-width: 150%;
     transform: rotate(-45deg);
     position: relative;
-    top: 250px;
-    left: 250px;
+    top: 240px;
+    left: 221px;
 }
 
 .portfolio__bgr2, .portfolio__bgr3 {
@@ -399,7 +424,7 @@ button {
 }
 
 .portfolio__text {
-    margin: -50px auto 100px;
+    margin: 0 auto 100px;
 }
 
 .portfolio__text p {
@@ -415,13 +440,14 @@ button {
 }
 
 .portfolio__bgr5 {
-    position: absolute;
+    position: relative;
     height: 150px;
     width: 150px;
     background-color: var(--color6);
     transform: rotate(45deg);
-    left: 27%;
-    top: 2350px;
+    left: 280px;
+    /* right: -390px; */
+    top: 25px;
     z-index: 2;
 
     display: flex;
@@ -438,23 +464,9 @@ button {
     background-image: url(../img/bgr7.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     padding: 100px 0 150px;
 }
-
-/* .howItWork__num {
-    transform: rotate(45deg);
-    background-color: var(--color6);
-    height: 100px;
-    width: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto -20px;
-}
-
-.howItWork__num .contentNum {
-    transform: rotate(-45deg);
-} */
 
 
 .howItWork__row {
@@ -497,6 +509,9 @@ button {
 
 .Testimonials {
     background-image: url(../img/bgr8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     padding: 100px 0;
 }
 
